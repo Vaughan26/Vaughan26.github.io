@@ -1,31 +1,49 @@
-               
-    h1 {
-        color: red;
-        background-color: greenyellow;
-       border-color: blue;
-        text-align: center;
-        font-size: 50px;
-        text-decoration: underline;
+        
+   
+   
+   h1 {
      
-    }
+        font-family: 'Bangers', cursive;   
+   }
     h2 {
-        color: green;
-        border-style: solid;
-        border-color: red;
-        font-style: italic;
-        text-align: right;
+        color:rgb(0, 204, 255);
+        font-family: 'Zhi Mang Xing', cursive;
+         text-align: center;
     }
 
-    li.food{
-        color: orange;
-    }
-    li {
-        color: blue;
-    }
+ .background{
+    background-attachment: scroll;
+    background-image: url(IMG-00061.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+    
 
-img.hank{
-    width: 200px;
+.table h1{
+    font-family: 'Orbitron', sans-serif;
+    background-color: violet;
+
 }
-img.Mike{
-    width: 50px;
+
+.header h1{
+    font-family: 'Vidaloka', serif; 
+}
+
+.media img{
+    width: 64px;
+    height: 64px;
+}
+
+.hank img{
+    width: 100px;
+    height: 100px;
+}
+
+.customers{
+    background-color: rgba(128, 0, 0, 0.034);
+}
+.customers h2 { 
+font-family: sans-serif;
+    font-style: oblique;
+    color: black;
 }

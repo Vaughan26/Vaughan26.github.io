@@ -1,27 +1,157 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hello, World! (with CSS!)</title>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <!-- My Own Style Sheet-->
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="styles2.css">
-   
-</head>
-<body>
-     <h1>Hi this is my website</h1>   
- <h2>Isn't it awesome?</h2>
- <img class="hank" src="IMG_0373.jpg" alt="">
- <img class="Mike" src="mvhs.jpeg" alt="">
- <p>My favorite things</p>
- <ul>
-     <li class="food">tacos</li>
-     <li>puppies</li>
-     <li class="food">pizza</li>
-     <li>shoes</li>
-     <li class="food">ice cream</li>
-     
- </ul>
-</body>
+  
+  </head>
+  <body>
+       <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                 <a class="nav-link" href="index.html">
+                    <i class="fas fa-home"></i>
+                 Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="hireme.html">Hire Me</a>
+                </li>
+              </ul>
+              <div class="navbar-nav ml-auto">
+                <a class="btn btn-outline-info" href="contact.html">Contact Me</a>
+              </div>
+            </div>
+          </nav>
+      </div>
+      <div class="container">
+        <div class="background jumbotron">
+            <h1 class="display-4">Hello, World!</h1>
+            <p class="lead">Come Meet Mike Vaughan, the man who dabbles (and his nephew Johnny).</p>
+            <hr class="my-4">
+           
+            <a class="btn btn-primary btn-lg" href="hireme.html" role="button">Pricing</a>
+          </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h1>Why Me?</h1>
+          </div>
+        </div>
+      <div class="container">
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-3 text-center">
+                <h1><i class="fas fa-calculator"></i></h1>
+                <h2>Average Accountant</h2>
+                <p>Need help on your taxes? I'm friends with some really good accountants that can help you</p>
+                <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/michael-vaughan-3bb55066/" role="button">Learn More</a> 
+              </div>
+              <div class="col-sm-6 text-center">
+                <h1><i class="fas fa-hat-wizard"></i></h1>
+                <h2>World Class Magician</h2>
+                <p>Available for birthday parties, office parties, and party parties. I bring the heat*</p>   
+                <a class="btn btn-primary btn-lg" href="https://www.youtube.com/watch?v=G5N8tMt_cgk&feature=youtu.be" role="button">Watch him perform!</a> 
+              </div>
+              <div class="col-sm-3 text-center">
+                <h1><i class="fas fa-child"></i></h1>
+                <h2>Top Uncle</h2>
+                <p>Finalist for Uncle of the Year after multiple successfull babysitting outings</p>
+                <p>(2017, 2018, 2019)</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="customers my-4 py-4">
+            <div class="container">
+              <div class="row my-4">
+                <div class="col text-center">
+                  <h2>What People Are Saying</h2>
+                  <p>Don't just take my word for it</p>
+                </div>
+              </div>
+              <!-- Media object/media list -->
+              <!-- https://getbootstrap.com/docs/4.4/components/media-object/#media-list -->
+              <ul class="list-unstyled">
+                <li class="media">
+                  <img src="https://placekeanu.com/200/200" class="mr-3" alt="Pic">
+                  <div class="media-body">
+                    <blockquote class="blockquote">
+                      <p class="mb-0">He's the real deal.  I've seen him add 7 + 9 without a calculator</p>
+                      <footer class="blockquote-footer">Keanu, <cite title="Class of 2017">believer</cite></footer>
+                    </blockquote>
+                  </div>
+                </li>
+                <li class="media">
+                  <img src="https://www.fillmurray.com/640/360" class="mr-3" alt="Pic">
+                  <div class="media-body">
+                    <blockquote class="blockquote">
+                      <p class="mb-0">He is the next big thing.  The last remaining swiss army knife</p>
+                      <footer class="blockquote-footer">Bill, <cite title="Class of 2017">Local Actor</cite></footer>
+                    </blockquote>
+                  </div>
+                </li>
+                <li class="media">
+                  <img src="https://www.placecage.com/640/360" class="mr-3" alt="Pic">
+                  <div class="media-body">
+                    <blockquote class="blockquote">
+                      <p class="mb-0">He makes you believe in the impossible. He cut me in half and somehow put me back together.</p>
+                      <footer class="blockquote-footer">Nicolas, <cite title="Class of 2019">Hero</cite></footer>
+                    </blockquote>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <hr class="my-4">
+
+          <div class="container footer">
+            <div class="row my-5">
+              <div class="col-sm-6">
+                <div class="hank">
+                <img src="IMG_7263.JPEG">
+              </div>
+              </div>
+              <div class="col-sm-3">
+                <h3>Mike Vaughan</h3>
+                <ul class="list-unstyled mt-3">
+                  <li><a href="hireme.html">Pricing</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-3">
+                <h3>Established Yesterday</h3>
+                <p class="mt-3"><em>For imediate hire</em></p>
+              </div>
+            </div>
+          </div>
+         
+          
+      
+
+  
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
 </html>
